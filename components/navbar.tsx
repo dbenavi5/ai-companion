@@ -8,6 +8,7 @@ import { Sparkles } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { ModeToggle } from "@/components/mode-toggle";
+import { MobileSidebar } from "@/components/mobile-sidebar";
 
 const poppins = Poppins({ weight: "600", subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export const Navbar = () => {
   return (
     <div className="fixed w-full z-50 flex justify-between items-center py-2 px-4 h-16 border-b border-primary/10 bg-secondary">
       <div className="flex items-center">
-        {/* <MobileSidebar/> */}
+        <MobileSidebar />
         <Link href="/">
           <h1
             className={cn(
@@ -36,7 +37,7 @@ export const Navbar = () => {
           Upgrade
           <Sparkles className="h-4 w-4 fill-white ml-2" />
         </Button>
-        <ModeToggle/>
+        <ModeToggle />
         <UserButton afterSignOutUrl="/" />
       </div>
     </div>
