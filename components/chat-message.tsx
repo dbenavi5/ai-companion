@@ -50,8 +50,6 @@ export const ChatMessage = ({
       <div className="rounded-md px-4 py-2 max-w-sm text-sm bg-primary/10">
         {isLoading ? (
           <BeatLoader color={theme === "light" ? "black" : "white"} size={5} />
-        ) : role !== "user" ? (
-          <Typewriter words={[`${content}`]} loop={1} typeSpeed={20}/>
         ) : (
           content
         )}
