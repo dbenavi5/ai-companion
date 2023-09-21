@@ -10,7 +10,6 @@ import { BotAvatar } from "@/components/bot-avatar";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { UserAvatar } from "@/components/user-avatar";
-import { Typewriter } from "react-simple-typewriter";
 
 export interface ChatMessageProps {
   role: "system" | "user";

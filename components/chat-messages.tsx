@@ -2,7 +2,6 @@
 
 import { Companion } from "@prisma/client";
 import { ElementRef, useEffect, useRef, useState } from "react";
-import TypewriterComponent from "typewriter-effect";
 import { ChatMessage, ChatMessageProps } from "@/components/chat-message";
 
 interface ChatMessagesProps {
@@ -29,7 +28,7 @@ export const ChatMessages = ({
     return () => {
       clearTimeout(timeout);
     };
-  }, []);
+  }, [messages.length]);
 
   useEffect(() => {
     scrollRef?.current?.scrollIntoView({ behavior: "smooth" });
