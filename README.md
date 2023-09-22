@@ -1,3 +1,5 @@
+<img width="740" alt="Companion AI Homepage" src="https://github.com/dbenavi5/ai-companion/assets/56004267/bd89b194-afa6-4873-85f0-e927c699f0d3">
+
 ## Getting Started with Companion AI
 
 These features and technologies collectively make Companion AI a cutting-edge web application that leverages the latest advancements in AI, databases, and user experience design to deliver a powerful and user-friendly companion experience.
